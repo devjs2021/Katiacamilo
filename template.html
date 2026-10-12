@@ -442,8 +442,8 @@
 <div style="font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:#5c6b2f;text-align:center;margin-bottom:32px;font-weight:500">Cronograma del gran día</div>
 <sc-for list="{{ schedule }}" as="s" hint-placeholder-count="6"><div style="display:grid;grid-template-columns:clamp(140px, 34%, 180px) 1fr;gap:16px;padding:16px 0;border-top:1px solid #d5d8c0;align-items:center"><div style="color:#5c6b2f;font-weight:500;font-size:15px;letter-spacing:0.02em">{{ s.t }}</div><div style="color:#2a2b22;font-size:16px;line-height:1.4">{{ s.e }}</div></div></sc-for></section>
 <section id="vestimenta" style="max-width:720px;margin:0 auto;padding:96px 24px 32px;text-align:center">
-<div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#5c6b2f;font-weight:500;margin-bottom:8px">Código de vestimenta</div>
-<h2 style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:46px;margin:0 0 16px;color:#2a2b22">Colores Tierra &amp; Pasteles</h2>
+<div style="font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#5c6b2f;font-weight:500;margin-bottom:8px">Dress code</div>
+<h2 style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:46px;margin:0 0 16px;color:#2a2b22;line-height:1.15">Código de vestimenta</h2>
 <p style="margin:0 auto 28px;max-width:580px;font-size:16px;color:#4f5242;line-height:1.6">
 Formal de tarde y noche. Les sugerimos vestir en la armonía de <strong>colores tierra</strong> y <strong>tonos pasteles</strong>, ideales para nuestro ambiente campestre y celebración.
 </p>
@@ -710,7 +710,6 @@ class Component extends DCLogic {
         ['11:30 pm a 12:00 am', 'Finalización de la boda y entrega de recordatorios']
       ].map(([t, e]) => ({ t, e })),
       faqs: [
-        { q: '¿Cuál es el código de vestimenta?', a: 'Formal. La paleta para nuestros invitados es colores tierra y tonos pasteles. Con mucho cariño les recordamos que el color blanco está reservado exclusivamente para la novia (por favor no asistir de blanco).' },
         { q: '¿Puedo llevar acompañante?', a: 'Con mucho cariño, reservamos cada lugar para las personas indicadas en tu invitación. ¡Gracias por entenderlo!' },
         { q: '¿Hay parqueadero?', a: 'Sí, hay parqueadero disponible en la Finca Casa Yoli.' },
         { q: '¿Pueden ir niños?', a: '¡Claro que sí! Los pequeños son bienvenidos. Solo pedimos a los papás estar pendientes de sus cuidados y necesidades durante la fiesta.' }
