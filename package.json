@@ -1,0 +1,10 @@
+{
+  "name": "boda-camilo-katia",
+  "version": "1.0.0",
+  "description": "Invitación de boda de Camilo y Katia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js"
+  }
+}
